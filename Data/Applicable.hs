@@ -16,15 +16,15 @@ You will likely need the @FlexibleContexts@ extension to use this module’s ins
 -}
 
 module Data.Applicable (
-  Applicable(($*)),
-  ApplyTo,
-  ApplyMap,
-  ApplyAp,
-  ApplyBind,
-  GroupAction,
-  ChurchBool,
-  ChurchNumeral,
-  ChurchTuple
+  Applicable(..),
+  ApplyTo(..),
+  ApplyMap(..),
+  ApplyAp(..),
+  ApplyBind(..),
+  GroupAction(..),
+  ChurchBool(..),
+  ChurchNumeral(..),
+  ChurchTuple(..)
 ) where
 
 import Data.List (genericIndex)
