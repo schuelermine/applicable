@@ -53,7 +53,7 @@ instance Applicable (ApplyTo a) (a -> b) b where
 
 -- | A wrapper for functions.
 --   Can be applied to a 'Functor', 'fmap'-ing the function over the inner values.
-newtype ApplyMap a b = AppMap { unAppMap :: a -> b } deriving Functor
+newtype ApplyMap a b = AppMap { unAppMap :: a -> b } deriving (Generic, Functor)
 
 instance Functor f => Applicable (ApplyMap a b) (f a) (f b) where
   AppMap f $* xa = f <$> xa

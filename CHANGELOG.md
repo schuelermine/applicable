@@ -1,5 +1,9 @@
 # Revision history for applicable
 
+## 0.4.0.0 -- 2022-06-27
+
+* Fixed missing instances from 0.3.0.0.
+
 ## 0.3.0.0 -- 2022-06-27
 
 * Added more instances.
