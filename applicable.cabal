@@ -1,6 +1,6 @@
 cabal-version:      2.4
 name:               applicable
-version:            0.2.0.0
+version:            0.3.0.0
 synopsis:           A class for things that can be applied
 description:        A class for things that can be applied, and utility newtypes
 homepage:           https://github.com/schuelermine/applicable
